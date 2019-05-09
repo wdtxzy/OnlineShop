@@ -9,7 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>shop-common</artifactId>
+    <artifactId>shop-member</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.lucifer.onlineshop</groupId>
+            <artifactId>shop-api-member</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
